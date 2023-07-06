@@ -1,0 +1,111 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.menu-container{
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    list-style: none;
+    padding: 20px;
+
+}
+.menus{
+    display: flex;
+}
+.logo-pic{
+    width: 150px;
+}
+.menus li{
+
+    font-size: 18px;
+    margin-right: 10px;
+    padding-right: 7px;
+    cursor: pointer;
+    background-color:blue;
+    width: 80px;
+    height: 28px;
+    border-radius: 5px;
+    text-align: center;
+    padding: 5px;
+}
+.menus li:hover{
+    color: blue;
+    background-color:white;
+    width: 80px;
+    height: 28px;
+    border-radius: 5px;
+    text-align: center;
+    padding: 5px;
+}
+.banner-img{
+    width: 300px;
+}
+.banner-container{
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    height: 100vh;
+    align-items: center;
+    /* border: 2px solid green; */
+    background-image: url("./images/background.png"),linear-gradient(45deg,rgb(8, 8, 8),rgb(53, 53, 53));
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.title{
+    font-size: 55px;
+    font-weight:bold ;
+}
+.description{
+    font-size: 18px;
+    margin: 15px 0 15px;
+}
+.btn{
+    padding: 10px 20px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 7px;
+}
+.about-title{
+    text-align: center;
+    padding-top:20px;
+}
+.about-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    flex-direction:row-reverse;
+}
+.box{
+    color: white;
+    width: 230px;
+    height: 280px;
+    background-color: black;
+    box-shadow: 4px 4px 15px gray;
+    text-align: center;
+    padding: 15px;
+    border-radius: 4px;
+}
+.icon{
+    width: 70px;
+}
+.box-btn{
+    background-color: gray;
+    margin-top:10px;
+}
+.box-title{
+    padding: 10px;
+}
+.box-description{
+    padding: 5px;
+}
+.service-container{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
